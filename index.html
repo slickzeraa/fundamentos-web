@@ -3,44 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Perfil</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <title>Fanpage CR7 </title>
 </head>
 <body>
-    <ul>
-        <li>
-            <a href="index.html"> Home</a>
-        </li>
-        <li>
-            <a href="contato.html"> Contato</a>
-        </li>
-        <li>
-            <a href="test.html"> Página test</a>
-        </li>
-    </ul>
+    
+              <header>
+                <div id="title">
+                    <img class="logo" src="./assets/img/cr7 logo.svg">
+                </div>
 
-    <h1>Olá Mundo</h1>
+                <ul>
+                    <a href="index.html"><li>Início</li></a>
+                    <a href="contato.html"><li>Contato</li></a>
+                    <a href="index.html#inscreva-se-form" id="inscreva-se-btn"><li>Receber notícias?</li></a>
+                </ul>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Aliquid nemo doloribus dolore iusto officiis earum accusantium 
-        neque nostrum ducimus unde quod facere similique voluptas
-         mollitia incidunt, aut possimus laborum necessitatibus!</p>
+            </header>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Aliquid nemo doloribus dolore iusto officiis earum accusantium 
-        neque nostrum ducimus unde quod facere similique voluptas
-         mollitia incidunt, aut possimus laborum necessitatibus!</p>
-         
-    <img src="assets/img/2022-12-06t210144z_543130007_up1eic61meucs_rtrmadp_3_soccer-worldcup-por-swi-report-u7rsx78icr51 (1).webp" alt="Minha foto">
+        <main>
+            <aside>
+                <h1>Página dedicada ao Cristiano Ronaldo</h1>
+                <h2><span>Inscreva-se</span></h2>
+                <h2><span>agora</span></h2>
+                <h2>na Fanpage do</h2>
+                <h2>CR7</h2>
+                <p>Você quer receber notícias do nosso astro Cristiano Ronaldo?</p>
+                <form id="inscreva-se-form">
+                    <input type="text" placeholder="Nome">
+                    <input type="email" placeholder="E-mail">
+                    <input type="submit" value="Enviar ">
+                </form>
+            </aside>
+            
+            <article>
+                <p class="desc"><span>Cristiano Ronaldo (1985) é um futebolista português que fez história no Real Madrid. 
+                Foi jogador do Manchester United, do Juventus, da Itália e da Seleção Portuguesa. 
+                Foi eleito o melhor jogador do mundo em 2008, 2013, 2014, 2016 e 2017. Recebeu cinco bolas de ouro em sua carreira.</span></p>
+            
+            
+            
+                <img src="./assets/img/2022-12-06t210144z_543130007_up1eic61meucs_rtrmadp_3_soccer-worldcup-por-swi-report-u7rsx78icr51 (1).webp" alt="cr7">
+                <p id="p2art">Foto retirada do <a id="foto" href="https://www.instagram.com/cristiano/">Instagram</a> de Cristiano Ronaldo</p>
+            
+            
+                <h2>Meu video <span>favorito</span></h2>
+                <h2>do <span>CR7</span></h2>
 
-    <h2>Meu video predileto</h2>
+            
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/b2QFKIwQFpc?si=BDcuG0eDPolX62jl" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen></iframe>
+            </article>
 
-    <iframe width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/S84vy_Zz2O0?si=nBVkQ48OK_1miE-u" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    allowfullscreen>
-    </iframe>
+        </main>
+    
 </body>
 </html>

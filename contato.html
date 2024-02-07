@@ -3,42 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
     <title>Contato</title>
 </head>
 <body>
-    <ul>
-        <li>
-            <a href="index.html"> Home</a>
-        </li>
-        <li>
-            <a href="contato.html"> Contato</a>
-        </li>
-    </ul>
+    <header>
+        <div id="title">
+            <img class="logo" src="./assets/img/cr7 logo.svg">
+        </div>
 
-    <h1>Entre em contato</h1>
+        <ul>
+            <a href="index.html"><li>Início</li></a>
+            <a href="contato.html"><li>Contato</li></a>
+            <a href="index.html#inscreva-se-form" id="inscreva-se-btn"><li>Receber notícias?</li></a>
+        </ul>
 
-    <form action="">
-        <label for="nome"> Nome:</label><br>
-        <input type="text" id="nome">
-        <br>
-        <br>
-        <label for="email"> E-Mail:</label><br>
-        <input type="email" id="email">
-        <br>
-        <br>
-        <label for="assunto"> Assunto:</label> <br>
-        <textarea name="" id="assunto" cols="60" rows="5"></textarea>
-        <br>
-        <br>
-        <button>Enviar</button>
-    </form>
+    </header>
+    
+        <main>
+            <aside>
+                <h1>Entre em contato</h1>
+                <form action="">
+                    <input type="text" id="nome" placeholder="Nome">
+                    <input type="email" id="email" placeholder="E-mail">
+                    <label for="assunto"> Assunto:</label> 
+                    <textarea name="" id="assunto" cols="60" rows="5"></textarea>
+                    <input type="submit">
+                </form>
+                <h2>Endereço:</h2>
 
-    <h2>Endereço:</h2>
+                <p>Estr. do Campo Limpo, 3334 - Vila Prel</p>
+                <p>São Paulo - SP</p>
+                <iframe id="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.2022319565726!2d-46.77507862388159!3d-23.632927564226854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce54760d22f7fd%3A0x7edc6c0baa5524dd!2sEstr.%20do%20Campo%20Limpo%2C%203334%20-%20Vila%20Prel%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005777-000!5e0!3m2!1spt-BR!2sbr!4v1707163092842!5m2!1spt-BR!2sbr" 
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </aside>
+        </main>
 
-    <p>Estr. do Campo Limpo, 3334 - Vila Prel</p>
-    <p>São Paulo - SP</p>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.2022319565726!2d-46.77507862388159!3d-23.632927564226854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce54760d22f7fd%3A0x7edc6c0baa5524dd!2sEstr.%20do%20Campo%20Limpo%2C%203334%20-%20Vila%20Prel%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005777-000!5e0!3m2!1spt-BR!2sbr!4v1707163092842!5m2!1spt-BR!2sbr" 
-    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
 </body>
 </html>
